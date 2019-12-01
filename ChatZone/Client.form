@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Client">
+  <grid id="27dc6" binding="panel4" layout-manager="GridLayoutManager" row-count="9" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="298" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-13950673"/>
+      <font name="Corbel" size="8" style="1"/>
+      <foreground color="-7764627"/>
+    </properties>
+    <border type="line">
+      <title-color color="-8948346"/>
+      <color color="-8948346"/>
+    </border>
+    <children>
+      <component id="7f8ab" class="javax.swing.JTextField" binding="addFriendsText">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4079180"/>
+        </properties>
+      </component>
+      <component id="6389f" class="javax.swing.JList" binding="friendListText">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4079180"/>
+          <model>
+            <item value="String"/>
+          </model>
+        </properties>
+      </component>
+      <component id="e290b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Sans Mono" size="12" style="1"/>
+          <foreground color="-7764627"/>
+          <text value="Add Friends:"/>
+        </properties>
+      </component>
+      <vspacer id="fd37c">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="5347a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Sans Mono" size="12"/>
+          <foreground color="-7039916"/>
+          <text value="Search by:"/>
+        </properties>
+      </component>
+      <component id="f0cfa" class="javax.swing.JTextField" binding="searchText">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4079180"/>
+          <foreground color="-14804702"/>
+        </properties>
+      </component>
+      <component id="b0c91" class="javax.swing.JRadioButton" binding="nameRadioButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13950673"/>
+          <font name="Droid Sans Mono" size="12"/>
+          <foreground color="-3814840"/>
+          <text value="name"/>
+        </properties>
+      </component>
+      <component id="43568" class="javax.swing.JRadioButton" binding="emailRadioButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13950673"/>
+          <font name="Droid Sans Mono" size="12"/>
+          <foreground color="-3814840"/>
+          <text value="email"/>
+        </properties>
+      </component>
+      <component id="f2404" class="javax.swing.JButton" binding="addButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11185056"/>
+          <font name="Droid Sans Mono" size="14" style="1"/>
+          <foreground color="-7039916"/>
+          <text value="Add"/>
+        </properties>
+      </component>
+      <component id="abd9a" class="javax.swing.JLabel" binding="chatZoneLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-68609"/>
+          <font name="Droid Sans Mono" size="18" style="1"/>
+          <foreground color="-3814840"/>
+          <text value="ChatZone"/>
+        </properties>
+      </component>
+      <component id="9f988" class="javax.swing.JButton" binding="friendRequestsButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11185056"/>
+          <font name="Droid Sans Mono" size="14" style="1"/>
+          <foreground color="-7039916"/>
+          <text value="Friend Requests"/>
+        </properties>
+      </component>
+      <component id="d7d55" class="javax.swing.JLabel" binding="nameText">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Sans Mono" size="16" style="2"/>
+          <foreground color="-4497561"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="4124a" class="javax.swing.JButton" binding="logOffButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11185056"/>
+          <font name="Droid Sans Mono" size="12" style="1"/>
+          <foreground color="-7039916"/>
+          <text value="Log Off"/>
+        </properties>
+      </component>
+      <component id="dbad2" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11185056"/>
+          <font name="Droid Sans Mono" size="14" style="1"/>
+          <foreground color="-7039916"/>
+          <text value="Search"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
